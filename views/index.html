@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>veblaba3</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body >
+<div class="backgroundindex" ></div>
+<div class="error">
+  <h2>Привет!</h2>
+  <div class="wrapper">
+    <div style="text-align: center;">
+      <form method="post">
+        <div>
+          <div class="form-group">
+            <label class="login" >Login</label>
+            <input name="login" type="text" minlength="5" maxlength="15" required />
+          </div>
+          <div class="form-group">
+            <label class="login" >Password</label>
+            <input name="password" type="password" minlength="5" maxlength="15" autocomplete="off" required />
+          </div>
+          <div class="form-group">
+            <input type="submit" value="Нажми на меня!" class="btn" formaction="/v1/authorization"  />
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
